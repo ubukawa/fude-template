@@ -5,5 +5,11 @@
 法務省により公開されている登記所備付地図データを、(一社)社会基盤情報流通推進協議会が、shapefile、geojsonに変換したデータです。
 （出典）　「登記所備付地図データ」（法務省）
 - 北海道根室市（サンプルとして入れています）
+# Usage
 
+```
+git clone https://github.com/ubukawa/fude-template
+cd fude-template
+sh ./geojson.sh
+```
 
