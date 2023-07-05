@@ -9,7 +9,7 @@
 
 ```
 git clone https://github.com/ubukawa/fude-template
-cd fude-template
-sh ./geojson.sh
+cd fude-template #Then, plese delete sample file in 0_src and upload your file(s) in 0_src.
+sh ./geojson.sh # If you uploada shape files, run shape.sh instead of geojson.sh.
 ```
 
