@@ -1,0 +1,1 @@
+for f in 0_src/*.geojson; do ogr2ogr -f GeoJSONSeq -lco RS=YES /vsistdout/ ${f};done | tippecanoe -o output.pmtiles -Z10 -z15 --no-feature-limit --no-tile-size-limit
